@@ -18,18 +18,24 @@ scikit_learn == 0.24.2
 3.Use the trained model for prediction and evaluation.
 
 ## Example
-example-train-test-split.(ipynb/py) Randomly divide the training set and the test set. Such as example_saved/example-train-data.csv and example_saved/example-test-data.csv.
+**example-train-test-split.(ipynb/py)** Randomly divide the training set and the test set. Such as example_saved/example-train-data.csv and example_saved/example-test-data.csv.
 
 > The first column of the output file is the on-target sequence.
+
 > The second column of the output file is the off-target sequence.
+
 > The third column of the output file is the label.
 
-example-train-CRISPR-IP.(ipynb/py) Train and save the model based on the training set. Such as: example_saved/example+crispr_ip.h5.
+**example-train-CRISPR-IP.(ipynb/py)** Train and save the model based on the training set. Such as: example_saved/example+crispr_ip.h5.
 
-example-evaluation-CRISPR-IP.(ipynb/py) Use the trained model to make predictions and save the prediction results.
+**example-evaluation-CRISPR-IP.(ipynb/py)** Use the trained model to make predictions and save the prediction results.
 
 > The first column of the output file is the on-target sequence.
+
 > The second column of the output file is the off-target sequence.
+
 > The third column of the output file is the actual label.
+
 > The fourth column of the output file is the predicted label.
+
 > The fifth column of the output file is the predicted score.
