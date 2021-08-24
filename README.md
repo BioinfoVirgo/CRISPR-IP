@@ -26,9 +26,9 @@ scikit_learn == 0.24.2
 > 
 > The third column of the output file is the label.
 
-**example-train-CRISPR-IP.(ipynb/py)** Train and save the model based on the training set. Such as: example_saved/example+crispr_ip.h5.
+**example-train-CRISPR-IP.(ipynb/py)** Train and save the model based on the training set. Such as example_saved/example+crispr_ip.h5.
 
-**example-evaluation-CRISPR-IP.(ipynb/py)** Use the trained model to make predictions and save the prediction results.
+**example-evaluation-CRISPR-IP.(ipynb/py)** Use the trained model to make predictions and save the prediction results. Such as example-predict-result.csv.
 
 > The first column of the output file is the on-target sequence.
 > 
